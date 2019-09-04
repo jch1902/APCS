@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SecondClass
+comment0.text=\n\ Write\ a\ description\ of\ class\ SecondClass\ here.\n\n\ @author\ (Jasper\ Hoong)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=question
+comment1.target=void\ setQuestion(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ askQuestion()
+numComments=3
