@@ -21,5 +21,16 @@ public class DrawHouse
         pen.move(-400,-250);
         
         pen.up();
+        pen.move(-400,250);
+        pen.down();
+        pen.move(0,400);
+        pen.move(400,250);
+        
+        pen.up();
+        pen.move(50,-250);
+        pen.down();
+        pen.move(50,0);
+        pen.move(-50,0);
+        pen.move(-50,-250);
     }
 }
