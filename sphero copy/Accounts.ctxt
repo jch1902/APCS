@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Accounts
+comment0.text=\n\ Write\ a\ description\ of\ class\ Accounts\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name
+comment1.target=void\ setName(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=purchase
+comment3.target=void\ setPurchase(double)
+comment4.params=
+comment4.target=double\ getPurchase()
+comment5.params=tendered
+comment5.target=void\ setTenderedAmount(double)
+comment6.params=
+comment6.target=double\ getTenderedAmount()
+numComments=7
