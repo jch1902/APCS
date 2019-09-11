@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Plane
+comment0.text=\n\ Write\ a\ description\ of\ class\ Plane\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=vendor\ model\ seats\ topSpeed
+comment1.target=Plane(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ getSeats()
+comment3.params=
+comment3.target=int\ gettopSpeed()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=void\ runDiagnostics()
+numComments=6
