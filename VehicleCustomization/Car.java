@@ -27,7 +27,7 @@ public class Car extends VehicleCustomizer implements Diagnostics
    }
    public String toString(){
         return (vendor + " " + model + " " + carType 
-        + " \nTop Speed: " + topSpeed + " \nTrunk size: " + trunkSize + "\n");
+        + " \nTop Speed: " + topSpeed + " mph \nTrunk size: " + trunkSize + " ft squared \n");
    }
    @Override
    public void runDiagnostics() {

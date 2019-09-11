@@ -22,7 +22,7 @@ public class Plane extends VehicleCustomizer implements Diagnostics
    }
    public String toString(){
         return (vendor + " " + model + " \nTop Speed: " + 
-        topSpeed + " \nSeats: " + seats + "\n");
+        topSpeed + " knots \nSeats: " + seats + "\n");
    }
    @Override
    public void runDiagnostics() {
