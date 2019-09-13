@@ -10,7 +10,7 @@ public class MainClass
 {
     private static String answer;
     private static String className;
-    private static boolean runClass = true;;
+    private static boolean runClass = true;
     private static ConsoleIO newConsole = new ConsoleIO();
     public static void main(String[]args){
         
