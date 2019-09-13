@@ -57,15 +57,15 @@ public class MainClass
                 case "VehicleCustomizerTest":
                     VehicleCustomizerTest.run();
                     afterRan();
-               break;
+                break;
                 
-               case "TestingMain":
+                case "TestingMain":
                     TestingMain.run();
                     afterRan();
-               break;
-               default:
+                break;
+                default:
                     System.out.println("Please type in the class name correctly(case sensitive)");
-               break;
+                break;
             }
         }  
     }
