@@ -72,12 +72,10 @@ public class MainClass
     public static void afterRan(){
         System.out.print("Would you like to run another program?(Y/N)");
         answer = newConsole.readLine();
-        if(answer.equals("Y")){
-           runClass = true;
-           System.out.println(runClass);
-        }else{
+        if(answer.equals("N")){
            runClass = false;
-           System.out.println(runClass);
+        }else{
+           runClass = true;
         }
         System.out.println();
     }
