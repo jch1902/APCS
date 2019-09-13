@@ -8,7 +8,7 @@
 import apcslib.*;
 public class DrawHouse
 {
-    public static void main (String[]args){
+    public static void run(){
         SketchPad paper = new SketchPad(1000,1000);
         DrawingTool pen = new DrawingTool(paper);
         

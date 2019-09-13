@@ -15,7 +15,7 @@ public class test
     private static ArrayList<questionClass> questionList;
     private static String userAnswer;
     private static int questionNumber;
-    public static void main(String[] args){
+    public static void run(){
         questionList = new ArrayList<>();
         ConsoleIO newConsole = new ConsoleIO();
 

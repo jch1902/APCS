@@ -7,7 +7,7 @@
  */
 public class sphero
 {
-    public static void main(){
+    public static void run(){
         String message = "Hello World";
         System.out.println(message + " " + "Hello World!");
     }

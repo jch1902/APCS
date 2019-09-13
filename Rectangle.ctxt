@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Rectangle
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ run()
 comment2.params=x\ y\ width\ length
 comment2.target=Rectangle(double,\ double,\ double,\ double)
 comment3.params=

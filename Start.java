@@ -14,7 +14,7 @@ public class Start
     {
         errorCode = 0;
     }
-    public static void main(String[]args){
+    public static void run(){
         System.out.println("\u000c\nHello, World! In main");
         
         FirstClass first = new FirstClass();

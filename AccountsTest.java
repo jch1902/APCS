@@ -16,7 +16,7 @@ public class AccountsTest
     private static double change;
     private static String userName;
     
-    public static void main(String[]args){
+    public static void run(){
         firstAccount.setName("John");
         firstAccount.setPurchase(23.06);
         firstAccount.setTenderedAmount(30.00);

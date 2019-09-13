@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class VehicleCustomizerTest
 {
     private static ArrayList<Diagnostics> vehicleList = new ArrayList<Diagnostics>();
-    public static void main(String[]args){
+    public static void run(){
         Car newCar1 = new Car("BMW","3 Series","Luxury Sedan",320,17);
         vehicleList.add(newCar1);
         

@@ -9,7 +9,7 @@ public class CountdownSong extends customMessage
 { 
     public static String animalName;
     public static int countdown;
-    public static void main(String[] args)
+    public static void run()
     { 
       ConsoleIO newConsole = new ConsoleIO();
       System.out.println("Animal Name?");

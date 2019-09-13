@@ -15,7 +15,7 @@ public class Rectangle
     private static double myHeight;
     private static DrawingTool pen = new DrawingTool(new SketchPad(700, 700));
 
-    public static void main(String[]args){
+    public static void run(){
         Rectangle rectangle = new Rectangle(-150,-150,300,400);
         rectangle.draw();
         System.out.println("Perimeter: " + getPerimeter());
