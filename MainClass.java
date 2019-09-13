@@ -15,7 +15,7 @@ public class MainClass
     public static void main(String[]args){
         
         
-        while(runClass){
+        while(runClass = true){
             System.out.println("Which class would you like to run?");
             className = newConsole.readLine();
             switch(className){
@@ -58,6 +58,11 @@ public class MainClass
                     VehicleCustomizerTest.run();
                     afterRan();
                 break;
+                
+                case "TestingMain":
+                    TestingMain.run();
+                    afterRan();
+                break;
                 default:
                     System.out.println("Please type in the class name correctly");
                 break;
@@ -69,6 +74,8 @@ public class MainClass
         answer = newConsole.readLine();
         if(answer == "N"){
            runClass = false;
+        }else{
+           runClass = true;
         }
         System.out.println();
     }

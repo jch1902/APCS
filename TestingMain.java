@@ -7,7 +7,7 @@
  */
 public class TestingMain
 {
-    public static void main(String[]args){
+    public static void run(){
         MathOpsFun newMathQuestion = new MathOpsFun();
         newMathQuestion.askQuestion();
     }
