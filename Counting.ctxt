@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Counting
+comment0.text=\n\ Write\ a\ description\ of\ class\ Counting\ here.\n\n\ @author\ (Jasper\ Hoong)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=operations
+comment1.target=void\ updateCounters(java.lang.Boolean)
+comment2.params=
+comment2.target=java.lang.Boolean\ printCounters()
+numComments=3
