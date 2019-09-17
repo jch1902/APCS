@@ -35,22 +35,25 @@ public class MathOpsFun
         // randomize logic to pick supplied amount of questions from method parameter, ie 10 
         Random randomInt = new Random();
         // randomizing logic here to pick arg1 <= 99, arg2 <=9 with Modulo != 0
-        int args1 = randomInt.nextInt(100);
-        int args2 = randomInt.nextInt(10);
-        int Modulo;
+        for(int i = 0; i < randomInt.nextInt(10); i++){
+            int args1 = randomInt.nextInt(100);
+            int args2 = randomInt.nextInt(10);
+            int Modulo;
         
-        tally.updateCounters( IntMathDivAndModulo(args1, '/', args2) );
-        tally.updateCounters( IntMathDivAndModulo(args1, '%', args2) );
+            tally.updateCounters( IntMathDivAndModulo(args1, '/', args2) );
+            tally.updateCounters( IntMathDivAndModulo(args1, '%', args2) );
         
-        // randomizing logic here to pick numbers <= 15
-        // random logic should pick even-even, even-odd, odd-even, odd-odd
-        tally.updateCounters( BinaryMath(7, '&', 3) );  // bitwise AND
-        tally.updateCounters( BinaryMath(7, '|', 3) );  // bitwise OR
-        tally.updateCounters( BinaryMath(7, '+', 3) );  // binary addition
-        tally.updateCounters( BinaryMath(7, '-', 3) );  // binary substraction
-
-        tally.printCounters();
+            // randomizing logic here to pick numbers <= 15
+            // random logic should pick even-even, even-odd, odd-even, odd-odd
+            tally.updateCounters( BinaryMath(args1, '&', args2) );  // bitwise AND
+            tally.updateCounters( BinaryMath(args1, '|', args2) );  // bitwise OR
+            tally.updateCounters( BinaryMath(args1, '+', args2) );  // binary addition
+            tally.updateCounters( BinaryMath(args1, '-', args2) );  // binary substraction
+                
+            tally.printCounters();
+        }
         
+ 
         return 0;
     }
   
@@ -106,6 +109,7 @@ public class MathOpsFun
                                     // requires var (may be hidden feature :)
         
         // getAnswer return true if question is correct
+        
         return question.getAnswer();
 
     }

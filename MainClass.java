@@ -9,6 +9,7 @@ import chn.util.*;
 public class MainClass
 {
     private static String answer;
+    private static int classNumber;
     private static String className;
     private static boolean runClass = true;
     private static ConsoleIO newConsole = new ConsoleIO();
@@ -16,55 +17,57 @@ public class MainClass
         
         
         while(runClass == true){
-            System.out.println("Which class would you like to run?");
-            className = newConsole.readLine();
-            switch(className){
-                case "DrawHouse":
+            System.out.println("\nClasses: \n\n1)DrawHouse\n2)Countdown Song\n3)sphero\n4)Rectangle\n5)AccountTest");
+            System.out.println("6)Start\n7)test\n8)VehicleCustomizerTest\n9)Testing Main\n");
+            System.out.println("Which class would you like to run?(type in the corresponding number)");
+            classNumber = newConsole.readInt();
+            switch(classNumber){
+                case 1:
                     DrawHouse.run();
                     afterRan();
                 break;
                 
-                case "Countdown Song":
+                case 2:
                     CountdownSong.run();
                     afterRan();
                 break;
                 
-                case "sphero":
+                case 3:
                     sphero.run();
                     afterRan();
                 break;
                 
-                case "Rectangle":
+                case 4:
                     Rectangle.run();
                     afterRan();
                 break;
                 
-                case "AccountsTest":
+                case 5:
                     AccountsTest.run();
                     afterRan();
                 break;
                 
-                case "Start":
+                case 6:
                     Start.run();
                     afterRan();
                 break;
                 
-                case "test":
+                case 7:
                     test.run();
                     afterRan();
                 break;
                 
-                case "VehicleCustomizerTest":
+                case 8:
                     VehicleCustomizerTest.run();
                     afterRan();
                 break;
                 
-                case "TestingMain":
+                case 9:
                     TestingMain.run();
                     afterRan();
                 break;
                 default:
-                    System.out.println("Please type in the class name correctly(case sensitive)");
+                    System.out.println("Please type in a valid number");
                 break;
             }
         }  
