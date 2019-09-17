@@ -2,7 +2,7 @@
 /**
  * Write a description of class MainClass here.
  *
- * @author (your name)
+ * @author (Jasper Hoong)
  * @version (a version number or a date)
  */
 import chn.util.*;
