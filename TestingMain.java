@@ -9,8 +9,6 @@ public class TestingMain
 {
     public static void run(){
         MathOpsFun newMathQuestion = new MathOpsFun();
-        newMathQuestion.askQuestion();
-        System.out.println();
-        
+        System.out.println(newMathQuestion.askQuestion());
     }
 }
