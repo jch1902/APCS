@@ -17,11 +17,7 @@ public class MainClass
     public static void main(String[]args){
         
         while(runClass == true){
-            System.out.println("\nClasses: \n\n1)DrawHouse\n2)Countdown Song\n3)sphero\n4)Rectangle\n5)AccountTest");
-            System.out.println("6)Start\n7)test\n8)VehicleCustomizerTest\n9)Testing Main\n10)Permutations\n11)RectangleArrayList\n12)Statistics\n13)Compact");
-            System.out.print("14)Shorthand\n15)PigLatinator\n");
-            System.out.println("Which class would you like to run?(type in the corresponding number)");
-            classNumber = newConsole.readInt();
+            printMenu();
             switch(classNumber){
                 case 1:
                     DrawHouse.run();
@@ -92,6 +88,10 @@ public class MainClass
                     PigLatinator.run();
                     afterRan();
                 break;
+                case 16:
+                    PalindromeTest.run();
+                    afterRan();
+                break;
                 default:
                     System.out.println("Please type in a valid number");
                 break;
@@ -114,5 +114,12 @@ public class MainClass
             System.out.println();
         }
         askAgain = true;
+    }
+    public static void printMenu(){
+        System.out.println("\nClasses: \n\n1)DrawHouse\n2)Countdown Song\n3)sphero\n4)Rectangle\n5)AccountTest");
+        System.out.println("6)Start\n7)test\n8)VehicleCustomizerTest\n9)Testing Main\n10)Permutations\n11)RectangleArrayList\n12)Statistics\n13)Compact");
+        System.out.print("14)Shorthand\n15)PigLatinator\n16)Palindrome\n");
+        System.out.println("Which class would you like to run?(type in the corresponding number)");
+        classNumber = newConsole.readInt();
     }
 }
