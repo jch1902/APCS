@@ -12,7 +12,7 @@ public class PalindromeTest
     private static ConsoleIO newConsole = new ConsoleIO();
     private static boolean continueRun;
     public static void run(){
-        System.out.println("\nWelcome to Palindrome!\nPress 1 for normal method, 2 for recursion");
+        System.out.println("\nWelcome to Palindrome!\nPress 1 for normal method, 2 for recursion, 3 for For loops");
         int x = newConsole.readInt();
         switch (x){
             case 1:
@@ -38,6 +38,10 @@ public class PalindromeTest
             case 2:
                 PalindromeRecursion newRecursionWord = new PalindromeRecursion();
                 newRecursionWord.getWord();
+            break;
+            case 3:
+                PalindromeFor newForWord = new PalindromeFor();
+                newForWord.getWord();
             break;
         }
         
